@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Elegant Website</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Georgia:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family:
+            line-height: 1.6;
+       }
+       /* Container styling */
+.hero .container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 60px 20px; 
+}
+
+/* Button styling */
+.get-started-btn {
+    display: inline-block; 
+    background-color: #ff6f61; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 15px 30px;
+    font-size: 1.25rem;
+    text-decoration: none; 
+    transition: background-color 0.3s, transform 0.3s; 
+    cursor: pointer; 
+}
+
+.get-started-btn:hover {
+    background-color: #800080; /* Change color on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+.hero {
+    background-color: #002147; /* Dark blue background */
+    color: white; /* White text for contrast */
+    height: 500px; /* Ensure the height is set */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+        .card {
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: none;
+            border-radius: 10px;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: #f8f9fa;
+            padding: 40px 0;
+            border-top: 3px solid: #ff6f61;
+        }
+
+        footer .social-icons a {
+            color: #ff6f61;
+            margin: 0 10px;
+            font-size: 1.5rem;
+        }
+
+        footer .social-icons a:hover {
+            color: #0056b3;
+        }
+
+        .video-section {
+            background-color: #f5f5f5;
+            padding: 10px 0;
+}
+        .video {
+            border: 1px solid #e9ecef;
+            border-radius: 5px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .video:hover {
+            transform: scale(1.02);
+        }
+
+        .section-title {
+            margin-bottom: 30px;
+            font-family: 'Georgia', serif;
+            font-size: 2.5rem;
+            color: #343a40;
+        }
+
+        .blockquote {
+            background-color:  #f8f9fa;
+            padding: 1.5rem;
+            border-left: 5px solid #ff6f61;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="#videos">Videos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+   <!-- Hero Section -->
+<header class="hero text-center">
+    <div class="container">
+        <h1 class="display-4">Welcome to My FlexiFusion</h1>
+        <p class="lead">Explore our amazing features and content.</p>
+        <a href="#features" class="btn get-started-btn">Get Started</a>
+    </div>
+</header>
+    <!-- Main Content -->
+    <div class="container mt-5" id="features">
+        <h2 class="section-title text-center">Our Features</h2>
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="ele.jpg" class="card-img-top" alt="Feature 1"style="width: 350px;""height: 100px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Customizable Design Elements</h5>
+                        <p class="card-text">This is where users can easily modify design components, such as colors and layouts, to reflect their brand identity while maintaining responsiveness.</p>
+                        <a href="#" class="btn" style="background-color: #ff6f61; color: white;">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="performance.jpg" class="card-img-top" alt="Feature 2"style="width: 350px;""height: 500px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Performance Optimization</h5>
+                        <p class="card-text">The platform is optimized for speed and efficiency, ensuring quick loading times and smooth interactions regardless of device type or internet speed</p>
+                        <a href="#" class="btn" style="background-color: #ff6f61; color: white;">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="fluid.jpg" class="card-img-top" alt="Feature 3"style="width: 350px;""height: 450px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Fluid Grid Layout</h5>
+                        <p class="card-text">FlexiFusion utilizes a flexible grid system that automatically adjusts content placement based on the user's device, ensuring optimal viewing on desktops, tables, and smartphones.</p>
+                        <a href="#" class="btn" style="background-color: #ff6f61; color: white;">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- What We Do Section -->
+        <h2 class="section-title text-center">What We Do</h2>
+        <div class="row text-center mb-4">
+            <div class="col-md-4">
+                <i class="fas fa-laptop-code fa-3x mb-3"></i>
+                <h4>Development</h4>
+                <p>Building modern websites that are user-friendly and functional.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-paint-brush fa-3x mb-3"></i>
+                <h4>Design</h4>
+                <p>Creating beautiful interfaces that provide great user experience.</p>
+            </div>
+            <div class="col-md-4">
+                <i class="fas fa-mobile-alt fa-3x mb-3"></i>
+                <h4>Mobile Friendly</h4>
+                <p>Optimized designs for all devices to enhance accessibility.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Section -->
+    <section class="video-section" id="videos">
+        <div class="container">
+            <h2 class="section-title text-center">Our Videos</h2>
+            <div class="row">
+                               <div class="col-md-4 mb-4">
+                    <div class="video">
+                        <video controls>
+                <source src="elements.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            </div>
+        </div> 
+                <div class="col-md-4 mb-4">
+                    <div class="video">
+
+                <video controls>
+                <source src="performance.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="video">
+                        <video controls>
+                <source src="fluidd.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="my-5" id="testimonials">
+        <h2 class="section-title text-center">What Our Users Say</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">This website is fantastic!</p>
+                    <footer class="blockquote-footer">John Doe</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">I love the design and functionality!</p>
+                    <footer class="blockquote-footer">Jane Smith</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">Highly recommend to everyone!</p>
+                    <footer class="blockquote-footer">Alice Johnson</footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Button with JavaScript Interaction -->
+    <div class="text-center mb-4">
+        <button id="myButton" class="btn btn-primary" style="background-color: #ff6f61; color: white;">Click Me</button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 My Website</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('myButton').addEventListener('click', function () {
+            alert('Button clicked!');
+        });
+    </script>
+</body>
+
+</html>
